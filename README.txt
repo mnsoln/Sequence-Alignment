@@ -1,4 +1,4 @@
-L'algorithme se trouve dans le fichier projetNW_MEDINASolene.py et utilise argparse qui est une bibliothèque standard de python.
+L'algorithme se trouve dans le fichier algorythm.py et utilise argparse qui est une bibliothèque standard de python.
 
 ## Description
 
@@ -24,7 +24,7 @@ Pour réaliser tout cela nous prenons en arguments (comment les renseigner est e
 
 Se positionner dans le bon dossier puis :
 
-python3.9  projetNW_MEDINASolene.py + arguments cités ci-dessous 
+python3.9  algorythm.py + arguments cités ci-dessous 
 
 Voici les arguments utilisés dans cette pipeline : (présentés avec le raccourci, le nom complet, la valeur par defaut si besoin, le type de la variable et une description pour aider)
 
@@ -51,7 +51,7 @@ Voici les arguments utilisés dans cette pipeline : (présentés avec le raccour
 
  # Exemple 1 : séquences de nucléotides en global
  
- projetNW_MEDINASolene.py -F "C:/Users/Nouveau/Documents/.Licence/s6bioinfo/fastant1.fa.txt" -f "C:/Users/Nouveau/Documents/.Licence/s6bioinfo/fastant2.fa.txt"
+ python3.9 algorythm.py -F "C:/Users/Nouveau/Documents/.Licence/s6bioinfo/fastant1.fa.txt" -f "C:/Users/Nouveau/Documents/.Licence/s6bioinfo/fastant2.fa.txt"
 
  Résultat  :
 
@@ -90,7 +90,7 @@ Voici les arguments utilisés dans cette pipeline : (présentés avec le raccour
 
  # Exemple 2 : séquence d'acides aminés en local
 
- python3.9 projetNW_MEDINASolene.py -F "C:\Users\Nouveau\Documents\.Licence\s6bioinfo\fastaaa1.txt" -f "C:\Users\Nouveau\Documents\.Licence\s6bioinfo\fastaaa2.txt"  -a 'local' -s 'aa' 
+ python3.9 algorythm.py -F "C:\Users\Nouveau\Documents\.Licence\s6bioinfo\fastaaa1.txt" -f "C:\Users\Nouveau\Documents\.Licence\s6bioinfo\fastaaa2.txt"  -a 'local' -s 'aa' 
 
  #Résultat :
 
